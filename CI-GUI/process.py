@@ -2,7 +2,7 @@ from keras.models import load_model
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import fix_yahoo_finance as yf
+import yfinance as yf
 from sklearn.preprocessing import MinMaxScaler
 
 
